@@ -1,0 +1,628 @@
+{
+  "java/lang/Object": {
+    "obfuscated": "java/lang/Object",
+    "fields": [],
+    "methods": [
+      {
+        "name": "equals",
+        "obfuscated": "equals",
+        "signature": "(Ljava/lang/Object;)Z",
+        "static": false
+      },
+      {
+        "name": "toString",
+        "obfuscated": "toString",
+        "signature": "()Ljava/lang/String;",
+        "static": false
+      }
+    ]
+  },
+  "java/lang/Double": {
+    "obfuscated": "java/lang/Double",
+    "fields": [],
+    "methods": [
+      {
+        "name": "<init>",
+        "obfuscated": "<init>",
+        "signature": "(D)V",
+        "static": false
+      },
+      {
+        "name": "doubleValue",
+        "obfuscated": "doubleValue",
+        "signature": "()D",
+        "static": false
+      }
+    ]
+  },
+  "java/lang/String": {
+    "obfuscated": "java/lang/String",
+    "fields": [],
+    "methods": []
+  },
+  "java/util/Collection": {
+    "obfuscated": "java/util/Collection",
+    "fields": [],
+    "methods": [
+      {
+        "name": "toArray",
+        "obfuscated": "toArray",
+        "signature": "()[Ljava/lang/Object;",
+        "static": false
+      },
+      {
+        "name": "clear",
+        "obfuscated": "clear",
+        "signature": "()V",
+        "static": false
+      },
+      {
+        "name": "add",
+        "obfuscated": "add",
+        "signature": "(Ljava/lang/Object;)Z",
+        "static": false
+      }
+    ]
+  },
+  "java/util/List": {
+    "obfuscated": "java/util/List",
+    "fields": [],
+    "methods": []
+  },
+  "net/minecraft/client/Minecraft": {
+    "obfuscated": "net/minecraft/class_310",
+    "fields": [
+      {
+        "name": "thePlayer",
+        "obfuscated": "field_1724",
+        "signature": "Lnet/minecraft/class_746;",
+        "static": false
+      },
+      {
+        "name": "theWorld",
+        "obfuscated": "field_1687",
+        "signature": "Lnet/minecraft/class_638;",
+        "static": false
+      },
+      {
+        "name": "crosshairTarget",
+        "obfuscated": "field_1765",
+        "signature": "Lnet/minecraft/class_239;",
+        "static": false
+      },
+      {
+        "name": "interactionManager",
+        "obfuscated": "field_1761",
+        "signature": "Lnet/minecraft/class_636;",
+        "static": false
+      },
+      {
+        "name": "gameRenderer",
+        "obfuscated": "field_1773",
+        "signature": "Lnet/minecraft/class_757;",
+        "static": false
+      }
+    ],
+    "methods": [
+      {
+        "name": "tick",
+        "obfuscated": "method_1574",
+        "signature": "()V",
+        "static": false
+      },
+      {
+        "name": "getTheMinecraft",
+        "obfuscated": "method_1551",
+        "signature": "()Lnet/minecraft/class_310;",
+        "static": true
+      }
+    ]
+  },
+  "net/minecraft/client/entity/EntityClientPlayerMP": {
+    "obfuscated": "net/minecraft/class_746",
+    "fields": [],
+    "methods": [
+      {
+        "name": "swingHand",
+        "obfuscated": "method_6104",
+        "signature": "(Lnet/minecraft/class_1268;)V",
+        "static": false
+      }
+    ]
+  },
+  "net/minecraft/client/entity/AbstractClientPlayer": {
+    "obfuscated": "net/minecraft/class_742",
+    "fields": [],
+    "methods": []
+  },
+  "net/minecraft/entity/player/EntityPlayer": {
+    "obfuscated": "net/minecraft/class_1657",
+    "fields": [],
+    "methods": [
+      {
+        "name": "getAttackCooldownProgress",
+        "obfuscated": "method_7261",
+        "signature": "(F)F",
+        "static": false
+      }
+    ]
+  },
+  "net/minecraft/entity/EntityLivingBase": {
+    "obfuscated": "net/minecraft/class_1309",
+    "fields": [],
+    "methods": [
+      {
+        "name": "isUsingItem",
+        "obfuscated": "method_6115",
+        "signature": "()Z",
+        "static": false
+      }
+    ]
+  },
+  "net/minecraft/entity/Entity": {
+    "obfuscated": "net/minecraft/class_1297",
+    "fields": [
+      {
+        "name": "onGround",
+        "obfuscated": "field_5952",
+        "signature": "Z",
+        "static": false
+      },
+      {
+        "name": "entityId",
+        "obfuscated": "field_5986",
+        "signature": "I",
+        "static": false
+      },
+      {
+        "name": "fallDistance",
+        "obfuscated": "field_6017",
+        "signature": "F",
+        "static": false
+      },
+      {
+        "name": "entityBounds",
+        "obfuscated": "field_6005",
+        "signature": "Lnet/minecraft/class_238;",
+        "static": false
+      },
+      {
+        "name": "pitch",
+        "obfuscated": "field_5965",
+        "signature": "F",
+        "static": false
+      },
+      {
+        "name": "yaw",
+        "obfuscated": "field_6031",
+        "signature": "F",
+        "static": false
+      },
+      {
+        "name": "prevPitch",
+        "obfuscated": "field_6004",
+        "signature": "F",
+        "static": false
+      },
+      {
+        "name": "prevYaw",
+        "obfuscated": "field_5982",
+        "signature": "F",
+        "static": false
+      },
+      {
+        "name": "vehicle",
+        "obfuscated": "field_6034",
+        "signature": "Lnet/minecraft/class_1297;",
+        "static": false
+      }
+    ],
+    "methods": [
+      {
+        "name": "isSprinting",
+        "obfuscated": "method_5624",
+        "signature": "()Z",
+        "static": false
+      },
+      {
+        "name": "setSprinting",
+        "obfuscated": "method_5728",
+        "signature": "(Z)V",
+        "static": false
+      },
+      {
+        "name": "setGlowing",
+        "obfuscated": "method_5834",
+        "signature": "(Z)V",
+        "static": false
+      },
+      {
+        "name": "isGlowing",
+        "obfuscated": "method_5851",
+        "signature": "()Z",
+        "static": false
+      },
+      {
+        "name": "getBoundingBox",
+        "obfuscated": "method_5829",
+        "signature": "()Lnet/minecraft/class_238;",
+        "static": false
+      },
+      {
+        "name": "getX",
+        "obfuscated": "method_23317",
+        "signature": "()D",
+        "static": false
+      },
+      {
+        "name": "getY",
+        "obfuscated": "method_23318",
+        "signature": "()D",
+        "static": false
+      },
+      {
+        "name": "getZ",
+        "obfuscated": "method_23321",
+        "signature": "()D",
+        "static": false
+      },
+      {
+        "name": "getYaw",
+        "obfuscated": "method_5705",
+        "signature": "(F)F",
+        "static": false
+      },
+      {
+        "name": "getPitch",
+        "obfuscated": "method_5695",
+        "signature": "(F)F",
+        "static": false
+      },
+      {
+        "name": "changeLookDirection",
+        "obfuscated": "method_5872",
+        "signature": "(DD)V",
+        "static": false
+      },
+      {
+        "name": "onPassengerLookAround",
+        "obfuscated": "method_5644",
+        "signature": "(Lnet/minecraft/class_1297;)V",
+        "static": false
+      }
+    ]
+  },
+  "net/minecraft/client/multiplayer/WorldClient": {
+    "obfuscated": "net/minecraft/class_638",
+    "fields": [
+      {
+        "name": "players",
+        "obfuscated": "field_18226",
+        "signature": "Ljava/util/List;",
+        "static": false
+      }
+    ],
+    "methods": []
+  },
+  "net/minecraft/world/World": {
+    "obfuscated": "net/minecraft/class_1937",
+    "fields": [
+    ],
+    "methods": []
+  },
+  "net/minecraft/util/AxisAlignedBB": {
+    "obfuscated": "net/minecraft/class_238",
+    "fields": [
+      {
+        "name": "minX",
+        "obfuscated": "field_1323",
+        "signature": "D",
+        "static": false
+      },
+      {
+        "name": "minY",
+        "obfuscated": "field_1322",
+        "signature": "D",
+        "static": false
+      },
+      {
+        "name": "minZ",
+        "obfuscated": "field_1321",
+        "signature": "D",
+        "static": false
+      },
+      {
+        "name": "maxX",
+        "obfuscated": "field_1320",
+        "signature": "D",
+        "static": false
+      },
+      {
+        "name": "maxY",
+        "obfuscated": "field_1325",
+        "signature": "D",
+        "static": false
+      },
+      {
+        "name": "maxZ",
+        "obfuscated": "field_1324",
+        "signature": "D",
+        "static": false
+      }
+    ],
+    "methods": [
+      {
+        "name": "<init>",
+        "obfuscated": "<init>",
+        "signature": "(DDDDDD)V",
+        "static": false
+      },
+      {
+        "name": "expand",
+        "obfuscated": "method_1009",
+        "signature": "(DDD)Lnet/minecraft/class_238;",
+        "static": false
+      }
+    ]
+  },
+  "net/minecraft/client/Keyboard": {
+    "obfuscated": "net/minecraft/class_309",
+    "fields": [],
+    "methods": [
+      {
+        "name": "onKey",
+        "obfuscated": "method_1466",
+        "signature": "(JIIII)V",
+        "static": false
+      }
+    ]
+  },
+  "net/minecraft/world/chunk/WorldChunk": {
+    "obfuscated": "net/minecraft/class_2818",
+    "fields": [],
+    "methods": [
+      {
+        "name": "collectOtherEntities",
+        "obfuscated": "method_12205",
+        "signature": "(Lnet/minecraft/class_1297;Lnet/minecraft/class_238;Ljava/util/List;Ljava/util/function/Predicate;)V",
+        "static": false
+      }
+    ]
+  },
+  "net/minecraft/util/hit/HitResult": {
+    "obfuscated": "net/minecraft/class_239",
+    "fields": [],
+    "methods": [
+      {
+        "name": "getType",
+        "obfuscated": "method_17783",
+        "signature": "()Lnet/minecraft/class_239$class_240;",
+        "static": false
+      }
+    ]
+  },
+  "net/minecraft/util/hit/HitResult$Type": {
+    "obfuscated": "net/minecraft/class_239$class_240",
+    "fields": [
+      {
+        "name": "ENTITY",
+        "obfuscated": "field_1331",
+        "signature": "Lnet/minecraft/class_239$class_240;",
+        "static": true
+      },
+      {
+        "name": "BLOCK",
+        "obfuscated": "field_1332",
+        "signature": "Lnet/minecraft/class_239$class_240;",
+        "static": true
+      },
+      {
+        "name": "MISS",
+        "obfuscated": "field_1333",
+        "signature": "Lnet/minecraft/class_239$class_240;",
+        "static": true
+      }
+    ],
+    "methods": []
+  },
+  "net/minecraft/util/hit/EntityHitResult": {
+    "obfuscated": "net/minecraft/class_3966",
+    "fields": [],
+    "methods": [
+      {
+        "name": "getEntity",
+        "obfuscated": "method_17782",
+        "signature": "()Lnet/minecraft/class_1297;",
+        "static": false
+      }
+    ]
+  },
+  "net/minecraft/client/network/ClientPlayerInteractionManager": {
+    "obfuscated": "net/minecraft/class_636",
+    "fields": [],
+    "methods": [
+      {
+        "name": "attackEntity",
+        "obfuscated": "method_2918",
+        "signature": "(Lnet/minecraft/class_1657;Lnet/minecraft/class_1297;)V",
+        "static": false
+      }
+    ]
+  },
+  "net/minecraft/util/Hand": {
+    "obfuscated": "net/minecraft/class_1268",
+    "fields": [
+      {
+        "name": "MAIN_HAND",
+        "obfuscated": "field_5808",
+        "signature": "Lnet/minecraft/class_1268;",
+        "static": true
+      },
+      {
+        "name": "OFF_HAND",
+        "obfuscated": "field_5810",
+        "signature": "Lnet/minecraft/class_1268;",
+        "static": true
+      }
+    ],
+    "methods": []
+  },
+  "net/minecraft/client/gui/hud/InGameHud": {
+    "obfuscated": "net/minecraft/class_329",
+    "fields": [],
+    "methods": [
+      {
+        "name": "render",
+        "obfuscated": "method_1753",
+        "signature": "(Lnet/minecraft/class_4587;F)V",
+        "static": false
+      }
+    ]
+  },
+  "net/minecraft/client/render/GameRenderer": {
+    "obfuscated": "net/minecraft/class_757",
+    "fields": [],
+    "methods": [
+      {
+        "name": "getCamera",
+        "obfuscated": "method_19418",
+        "signature": "()Lnet/minecraft/class_4184;",
+        "static": false
+      }
+    ]
+  },
+  "net/minecraft/util/math/Vec3d": {
+    "obfuscated": "net/minecraft/class_243",
+    "fields": [
+      {
+        "name": "x",
+        "obfuscated": "field_1352",
+        "signature": "D",
+        "static": false
+      },
+      {
+        "name": "y",
+        "obfuscated": "field_1351",
+        "signature": "D",
+        "static": false
+      },
+      {
+        "name": "z",
+        "obfuscated": "field_1350",
+        "signature": "D",
+        "static": false
+      }
+    ],
+    "methods": [
+      {
+        "name": "<init>",
+        "obfuscated": "<init>",
+        "signature": "(DDD)V",
+        "static": false
+      },
+      {
+        "name": "multiply",
+        "obfuscated": "method_1021",
+        "signature": "(D)Lnet/minecraft/class_243;",
+        "static": false
+      },
+      {
+        "name": "distanceTo",
+        "obfuscated": "method_1022",
+        "signature": "(Lnet/minecraft/class_243;)D",
+        "static": false
+      },
+      {
+        "name": "squaredDistanceTo",
+        "obfuscated": "method_1025",
+        "signature": "(Lnet/minecraft/class_243;)D",
+        "static": false
+      },
+      {
+        "name": "squaredDistanceTo",
+        "obfuscated": "method_1028",
+        "signature": "(DDD)D",
+        "static": false
+      },
+      {
+        "name": "normalize",
+        "obfuscated": "method_1029",
+        "signature": "()Lnet/minecraft/class_243;",
+        "static": false
+      },
+      {
+        "name": "add",
+        "obfuscated": "method_1031",
+        "signature": "(DDD)Lnet/minecraft/class_243;",
+        "static": false
+      },
+      {
+        "name": "multiply",
+        "obfuscated": "method_18805",
+        "signature": "(DDD)Lnet/minecraft/class_243;",
+        "static": false
+      }
+    ]
+  },
+  "net/minecraft/client/render/Camera": {
+    "obfuscated": "net/minecraft/class_4184",
+    "fields": [
+      {
+        "name": "ready",
+        "obfuscated": "field_18709",
+        "signature": "Z",
+        "static": false
+      },
+      {
+        "name": "area",
+        "obfuscated": "field_18710",
+        "signature": "Lnet/minecraft/class_1922;",
+        "static": false
+      },
+      {
+        "name": "focusedEntity",
+        "obfuscated": "field_18711",
+        "signature": "Lnet/minecraft/class_1297;",
+        "static": false
+      },
+      {
+        "name": "thirdPerson",
+        "obfuscated": "field_18719",
+        "signature": "Z",
+        "static": false
+      },
+      {
+        "name": "inverseView",
+        "obfuscated": "field_18720",
+        "signature": "Z",
+        "static": false
+      }
+    ],
+    "methods": [
+      {
+        "name": "setRotation",
+        "obfuscated": "method_19325",
+        "signature": "(FF)V",
+        "static": false
+      },
+      {
+        "name": "setPos",
+        "obfuscated": "method_19327",
+        "signature": "(DDD)V",
+        "static": false
+      },
+      {
+        "name": "update",
+        "obfuscated": "method_19321",
+        "signature": "(Lnet/minecraft/class_1922;Lnet/minecraft/class_1297;ZZF)V",
+        "static": false
+      },
+      {
+        "name": "getPos",
+        "obfuscated": "method_19326",
+        "signature": "()Lnet/minecraft/class_243;",
+        "static": false
+      }
+    ]
+  }
+}
